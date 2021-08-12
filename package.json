@@ -1,4 +1,4 @@
-{
+{ "homepage": ".",
   "name": "gif-expert-app",
   "version": "0.1.0",
   "private": true,
@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-and-docs": "react-scripts build && node create-docs.js"
   },
   "eslintConfig": {
     "extends": [

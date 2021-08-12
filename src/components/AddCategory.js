@@ -14,7 +14,7 @@ export const AddCategory = ({setCategories}) => {
         e.preventDefault(); //prevenir la recarga de la página porr defecto
         // console.log('submit')
         if(inputValue.trim().length > 2) {
-            setCategories(cats =>[ inputValue,...cats]); // ...cats, --> para mantener lo que está en el arreglo
+            setCategories(cats =>[ inputValue]); // ...cats, --> para mantener lo que está en el arreglo
             setInputValue('');
         }
         
